@@ -1,9 +1,9 @@
 const hre = require("hardhat");
 const contractJSON = require("../artifacts/contracts/Goddey.sol/Goddey.json");
 
-const contractAddress = "0x6e73e8D0625D563E0c43a41d65FA8B79AE284d36";
+const contractAddress = "0xB0477Badc4403251bB5551b216B292D1fF870Be8";
 const contractABI = contractJSON.abi;
-const walletAddress = "0x9434E0a9878a1bE87918762a846dBEa7B333B5DE";
+const walletAddress = "0x0E4fFA7F869E6799185B1055bdd7983A253574cC";
 let noOfNFTs = 5;
 async function main() {
   const contract = await hre.ethers.getContractAt(contractABI, contractAddress);

@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const contractJSON = require("../artifacts/contracts/Goddey.sol/Goddey.json");
 require("dotenv").config();
 
-const contractAddress = "0x6e73e8D0625D563E0c43a41d65FA8B79AE284d36";
+const contractAddress = "0xB0477Badc4403251bB5551b216B292D1fF870Be8";
 const contractABI = contractJSON.abi;
 
 async function main() {
